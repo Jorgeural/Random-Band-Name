@@ -30,19 +30,25 @@ $("document").ready(function(){
         var option = randomOption(data);
         var obj = data[musicGenre][option];
     
-        if(option === "optionA" || option ==="optionB") {
+        if(option === "optionA" || option === "optionB") {
             var random1st = Math.floor(Math.random() * obj.firstWord.length);
             var random2nd = Math.floor(Math.random() * obj.secondWord.length);
+            $("#band-name").html(obj.firstWord[random1st] + " " + obj.secondWord[random2nd]);
             console.log(obj.firstWord[random1st] + " " + obj.secondWord[random2nd]);
         } else if( option === "optionC") {
             var randomC= Math.floor(Math.random() * obj.length);
+            $("#band-name").html(obj[randomC]);
             console.log(obj[randomC]);
         }
     }
     
-    $.getJSON("js/options.json", randomName);
-  
-    
+   function getName(){
+       $.getJSON("js/options.json", randomName); 
+   }
+      
+      getName();
+      
+      $("#random").on("click", getName);
 })
 
 

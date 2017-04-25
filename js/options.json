@@ -1,8 +1,8 @@
 {
   "metal": {
     "optionA": {
-      "firstWord": ["Sinful", "Deadly", "Pain", "Chaos" ,"Plague", "Brutal", "Mighty", "Lacerated", "Infected", ],
-      "secondWord": ["Laceration", "Cadaver", "Angel", "Sinner", "Killer", "Bringer", "Spreader", "Breaker", "Era", "Titan", ]
+      "firstWord": ["Sinful", "Deadly", "Pain", "Chaos" ,"Plague", "Brutal", "Mighty", "Lacerated", "Infected"],
+      "secondWord": ["Laceration", "Cadaver", "Angel", "Sinner", "Killer", "Bringer", "Spreader", "Breaker", "Era", "Titan"]
     },
     "optionB":{
       "firstWord": ["Black", "Dark", "Crimson", "Lacerated", "Infected", "Nordic", "Satan's", "Napalm" ,"Toxic", "Steel", "Cannibal", "Chaotic" ],
