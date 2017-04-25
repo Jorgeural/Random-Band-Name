@@ -1,14 +1,14 @@
 {
   "metal": {
     "optionA": {
-      "firstWord": ["Sinful", "Deadly", "Pain", "Chaos" ,"Plague", "Brutal", "Mighty", "Lacerated", "Infected"],
-      "secondWord": ["Laceration", "Cadaver", "Angel", "Sinner", "Killer", "Bringer", "Spreader", "Breaker", "Era", "Titan"]
+      "firstWord": ["Pain", "Chaos" ,"Plague", "Skull", "Bone", "Death", "Rage"],
+      "secondWord": ["Bringer", "Spreader", "Breaker", "Crusher", "Prophet", "Rider", "Lord", "Lobotomist", "Incinerator"]
     },
     "optionB":{
-      "firstWord": ["Black", "Dark", "Crimson", "Lacerated", "Infected", "Nordic", "Satan's", "Napalm" ,"Toxic", "Steel", "Cannibal", "Chaotic" ],
-      "secondWord": ["Funeral", "Tomb", "Behemoth", "Juggernaut", "Hate", "Throne", "Curse", "Death", "Skull", "Corpse", "Winter", "Titan"]
+      "firstWord": ["Incestuous", "Undead", "Bloody", "Wounded", "Misty", "Satanic", "Feral", "Profane", "Unholy", "Pestilent", "Carnal", "Nomad", "Bleeding", "Dying", "Rancid", "Furious", "Dire", "Evil", "Sinful", "Deadly", "Mighty", "Lurking", "Obscure", "Black", "Dark", "Crimson", "Lacerated", "Infected", "Nordic", "Satan's", "Napalm" ,"Toxic", "Steel", "Cannibal", "Chaotic" ],
+      "secondWord": ["Coffin", "Casket", "Woods", "Love", "Tranquility", "Linage", "Whore", "Slave", "Doom", "Desolation", "Void", "Mist", "Warrior", "Incest", "Evisceration", "Prophet", "Wolf", "Killer", "Laceration", "Sinner", "Cadaver", "Funeral", "Tomb", "Behemoth", "Lord", "Juggernaut", "Hate", "Throne", "Curse", "Death", "Skull", "Corpse", "Winter", "Titan", "Jesus", "Era", "Titan", "King" , "Prince", "Princess", "Queen"]
     },
-    "optionC": ["Death", "Holocaust", "Animosity", "Necrophagist"]
+    "optionC": ["Death", "Holocaust", "Animosity", "Necrophagist", "Tombs", "Incest"]
   },
   "stoner": {}
 }

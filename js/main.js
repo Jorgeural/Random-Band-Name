@@ -10,10 +10,10 @@ $("document").ready(function(){
         var randomNum = Math.ceil(Math.random() * 100);
         var index;
         
-        // 96% chance to be option 0, 4% chance to be option 1
-        if(randomNum < 96) {
+        // % chances on every option
+        if(randomNum < 4) {
            index = 0;
-        } else if (randomNum < 48){
+        } else if (randomNum < 96){
            index = 1;
         } else {
            index = 2;
