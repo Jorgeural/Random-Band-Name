@@ -1,0 +1,14 @@
+{
+  "metal": {
+    "optionA": {
+      "firstWord": ["Deadly", "Pain", "Chaos" ,"Plague", "Brutal", "Mighty"],
+      "secondWord": ["Cadaver", "Angel", "Sinner", "Killer", "Bringer", "Spreader", "Era", "Titan"]
+    },
+    "optionB":{
+      "firstWord": ["Infected", "Nordic", "Goat", "Satan's", "Napalm" ,"Toxic", "Steel"],
+      "secondWord": ["Behemoth", "Juggernaut", "Hate", "Throne", "Curse", "Death", "Skull"]
+    },
+    "optionD": ["Death", "Holocaust"]
+  },
+  "stoner": {}
+}
