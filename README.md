@@ -1,1 +1,1 @@
-# Random-Band-Name
+# Random-Band-Name Generator
