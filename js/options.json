@@ -1,14 +1,14 @@
 {
   "metal": {
     "optionA": {
-      "firstWord": ["Deadly", "Pain", "Chaos" ,"Plague", "Brutal", "Mighty"],
-      "secondWord": ["Cadaver", "Angel", "Sinner", "Killer", "Bringer", "Spreader", "Era", "Titan"]
+      "firstWord": ["Sinful", "Deadly", "Pain", "Chaos" ,"Plague", "Brutal", "Mighty", "Lacerated", "Infected", ],
+      "secondWord": ["Laceration", "Cadaver", "Angel", "Sinner", "Killer", "Bringer", "Spreader", "Breaker", "Era", "Titan", ]
     },
     "optionB":{
-      "firstWord": ["Infected", "Nordic", "Goat", "Satan's", "Napalm" ,"Toxic", "Steel"],
-      "secondWord": ["Behemoth", "Juggernaut", "Hate", "Throne", "Curse", "Death", "Skull"]
+      "firstWord": ["Black", "Dark", "Crimson", "Lacerated", "Infected", "Nordic", "Satan's", "Napalm" ,"Toxic", "Steel", "Cannibal", "Chaotic" ],
+      "secondWord": ["Funeral", "Tomb", "Behemoth", "Juggernaut", "Hate", "Throne", "Curse", "Death", "Skull", "Corpse", "Winter", "Titan"]
     },
-    "optionD": ["Death", "Holocaust"]
+    "optionC": ["Death", "Holocaust", "Animosity", "Necrophagist"]
   },
   "stoner": {}
 }

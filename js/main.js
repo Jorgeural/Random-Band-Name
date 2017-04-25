@@ -7,9 +7,19 @@ $("document").ready(function(){
     //This function return a random option iside the music genre.
     function randomOption(data){
         var genreOptions = data[musicGenre];
-        var len = Object.keys(genreOptions).length;
-        var randomNum = Math.floor(Math.random() * len);
-        var randomKey = Object.keys(genreOptions)[randomNum];
+        var randomNum = Math.ceil(Math.random() * 100);
+        var index;
+        
+        // 96% chance to be option 0, 4% chance to be option 1
+        if(randomNum < 96) {
+           index = 0;
+        } else if (randomNum < 48){
+           index = 1;
+        } else {
+           index = 2;
+        }
+        
+        var randomKey = Object.keys(genreOptions)[index];
         
         return randomKey;
     }
@@ -19,16 +29,14 @@ $("document").ready(function(){
     function randomName(data){
         var option = randomOption(data);
         var obj = data[musicGenre][option];
-        
-         console.log(option);
-        
-        if(option === "optionA" || option === "optionB") {
+    
+        if(option === "optionA" || option ==="optionB") {
             var random1st = Math.floor(Math.random() * obj.firstWord.length);
             var random2nd = Math.floor(Math.random() * obj.secondWord.length);
             console.log(obj.firstWord[random1st] + " " + obj.secondWord[random2nd]);
-        } else if( option === "optionD") {
-            var randomD= Math.floor(Math.random() * obj.length);
-            console.log(obj[randomD]);
+        } else if( option === "optionC") {
+            var randomC= Math.floor(Math.random() * obj.length);
+            console.log(obj[randomC]);
         }
     }
     
