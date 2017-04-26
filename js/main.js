@@ -1,7 +1,7 @@
 /*global $*/
 $("document").ready(function(){
     
-    var musicGenre = "metal";
+    var musicGenre ;
     
     
     //This function return a random option iside the music genre.
@@ -11,9 +11,9 @@ $("document").ready(function(){
         var index;
         
         // % chances on every option
-        if(randomNum < 4) {
+        if(randomNum < 3) {
            index = 0;
-        } else if (randomNum < 96){
+        } else if (randomNum < 98){
            index = 1;
         } else {
            index = 2;
@@ -46,9 +46,25 @@ $("document").ready(function(){
        $.getJSON("js/options.json", randomName); 
    }
       
-      getName();
       
+      function chooseMetal(){
+          musicGenre = "metal";
+          getName();
+      }
+      
+      function chooseStoner(){
+          musicGenre = "stoner";
+          getName();
+      }
+      
+      
+      
+      $("#metal").on("click", chooseMetal);
+      $("#stoner").on("click", chooseStoner);
       $("#random").on("click", getName);
+      
+      
+      
 })
 
 
