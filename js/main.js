@@ -91,7 +91,7 @@ $("document").ready(function(){
     
     function share(){
         if(musicGenre) {
-            var toUri = "https://twitter.com/intent/tweet?text=" + "My " + musicGenre + " random band name is " + '"' + bandName + '"' + " Done using https://jorgeural.github.io/Random-Band-Name/";
+            var toUri = "https://twitter.com/intent/tweet?text=" + "My random " + musicGenre + " band name is " + '"' + bandName + '"' + " Done using https://jorgeural.github.io/Random-Band-Name/";
             var uri = encodeURI(toUri);
             
             console.log(bandName);
