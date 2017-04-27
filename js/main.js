@@ -2,6 +2,7 @@
 $("document").ready(function(){
     
     var musicGenre ;
+    var bandName;
     
     
     //This function return a random option iside the music genre.
@@ -33,12 +34,14 @@ $("document").ready(function(){
         if(option === "optionA" || option === "optionB") {
             var random1st = Math.floor(Math.random() * obj.firstWord.length);
             var random2nd = Math.floor(Math.random() * obj.secondWord.length);
-            $("#band-name").html(obj.firstWord[random1st] + " " + obj.secondWord[random2nd]);
-            console.log(obj.firstWord[random1st] + " " + obj.secondWord[random2nd]);
+            bandName = obj.firstWord[random1st] + " " + obj.secondWord[random2nd]
+            $("#band-name").html(bandName);
+            console.log(bandName);
         } else if( option === "optionC") {
             var randomC= Math.floor(Math.random() * obj.length);
-            $("#band-name").html(obj[randomC]);
-            console.log(obj[randomC]);
+            bandName = obj[randomC]
+            $("#band-name").html(bandName);
+            console.log(bandName);
         }
     }
     

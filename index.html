@@ -22,14 +22,27 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 flex-col">
                     <h3>BAND NAME GENERATOR</h3>
                     <div class="row">
-                        <button id="metal">Metal</button>
-                        <button id="stoner">Stoner</button>
+                        <div class="col-xs-6">
+                            <button id="metal">Metal</button>
+                        </div>
+                        <div class="col-xs-6">
+                            <button id="stoner">Stoner</button>
+                        </div>
                     </div>
-                    <p id="band-name">Band Name</p>
-                    <button id="random">Random!</button>
+                    <div class="row result">
+                        <p id="band-name">Choose a genre</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <button id="twit">Share</button>
+                        </div>
+                        <div class="col-xs-6">
+                            <button id="random">Random!</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
